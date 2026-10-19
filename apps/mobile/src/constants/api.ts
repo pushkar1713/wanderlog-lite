@@ -18,7 +18,4 @@ export const API_ENDPOINTS = {
     details: (placeId: string) => `/places/${encodeURIComponent(placeId)}/details`,
     photo: '/places/photo',
   },
-  plans: {
-    create: '/plans/create',
-  },
 } as const;
