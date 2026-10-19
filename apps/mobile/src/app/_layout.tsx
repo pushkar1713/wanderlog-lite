@@ -50,7 +50,6 @@ export default function RootLayout() {
           <Stack.Screen name="(tabs)" />
           <Stack.Screen name="place" />
           <Stack.Screen name="explore" />
-          <Stack.Screen name="plans" />
           <Stack.Screen name="index" />
         </Stack>
       </QueryClientProvider>
